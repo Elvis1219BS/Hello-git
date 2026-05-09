@@ -10,7 +10,7 @@ GitC is a simple Git learning and demonstration repository. It contains basic Py
 .
 ├── hellogit.py      # Simple hello world script
 ├── hellogit2.py     # Second hello world variant
-├── calculator.py    # Interactive calculator program
+├── calculator.py    # GUI calculator program (tkinter interface)
 ├── .gitignore       # Git ignore rules (currently empty)
 └── README.md        # This file
 ```
@@ -22,7 +22,7 @@ All scripts are standalone Python files that can be executed directly:
 ```bash
 python hellogit.py      # Prints: Hello, GIT!
 python hellogit2.py     # Prints: Hello, GIT2
-python calculator.py    # Launches interactive calculator (supports +, -, *, /)
+python calculator.py    # Launches GUI calculator with graphical interface
 ```
 
 ## Development Notes
